@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Personal portfolio website of Farhad Chowdhury, CSE student, web developer, software developer and AI enthusiast from Bangladesh." />
+  <title>Farhad Chowdhury | Portfolio</title>
+
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <script src="https://kit.fontawesome.com/09ca406285.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <nav id="navbar">
+    <div class="container nav-container">
+      <a href="#home" class="logo"><span>F</span>arhad.</a>
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="sidemenu">
+        <i class="fa-solid fa-bars" aria-hidden="true"></i>
+      </button>
+      <ul id="sidemenu" aria-hidden="true">
+        <li><a href="#home" class="active">Home</a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#coding">Coding Skills</a></li>
+        <li><a href="#contact">Contact Me</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Improved Home Section -->
+  <section id="home" class="hero-section">
+    <div class="hero-bg-shape shape-one"></div>
+    <div class="hero-bg-shape shape-two"></div>
+
+    <div class="container hero-grid">
+      <div class="header-text reveal">
+        <p>Programmer</p>
+        <h1>Hi, I'm </h1> <h1> <span>Farhad Chowdhury</span></h1>
+        <h2>Developer from Bangladesh.</h2>
+        <h2>
+          I build clean, responsive and user-friendly web applications while learning modern software engineering, problem solving and AI-powered development.
+        </h2>
+
+        <div class="hero-actions">
+          <a href="#coding" class="btn primary-btn"><i class="fa-solid fa-code"></i> Explore Skills</a>
+          <a href="#contact" class="btn secondary-btn"><i class="fa-solid fa-paper-plane"></i> Contact Me</a>
+        </div>
+
+        <div class="hero-mini-stats" aria-label="Portfolio short highlights">
+          <div><strong>10+</strong><span>Projects</span></div>
+          <div><strong>5+</strong><span>Languages</span></div>
+          <div><strong>2027</strong><span>Graduation</span></div>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal">
+        <div class="image-frame">
+          <span class="corner corner-1"></span>
+          <span class="corner corner-2"></span>
+          <span class="corner corner-3"></span>
+          <span class="corner corner-4"></span>
+          <img src="fcs.jpeg" alt="Portfolio profile visual" />
+        </div>
+
+        <div class="floating-card card-top">
+          <i class="fa-solid fa-laptop-code"></i>
+          <div>
+            <strong>Web Developer</strong>
+            <span>HTML • CSS • JS</span>
+          </div>
+        </div>
+
+        <div class="floating-card card-bottom">
+          <i class="fa-solid fa-graduation-cap"></i>
+          <div>
+            <strong>Eastern University</strong>
+            <span>BSc in CSE</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <a href="#about" class="scroll-down" aria-label="Scroll to about section">
+      <span></span>
+    </a>
+  </section>
+
+  <section id="about">
+    <div class="container">
+      <div class="row about-row">
+        <div class="about-col-1 reveal"><img src="fc.png" alt="Profile photo" /></div>
+        <div class="about-col-2 reveal">
+          <p class="section-label">About Me</p>
+          <!-- <h1 class="sub-title">Building skills with purpose and passion</h1> -->
+          <!-- <p class="about-text">Hi, I’m Farhad Chowdhury. I’m a CSE student and a full-time problem solver. Programming is a way for me to build useful solutions and create positive impact.</p> -->
+           <p class="about-text">Hi, I’m Farhad Chowdhury! I’m a CSE student and a full-time problem solver. For me, programming isn't just a career path—it's a way to build a better world. Whether I’m debugging code or learning a new framework, I stay active and engaged across the dev community. Guided by the principles of Islam, I believe in hard work, kindness, and being a friendly face in the tech space. I’m "active everywhere"—from the latest GitHub repositories to local tech meetups—and I’m always down for a good chat about the future of software.</p>
+          <div class="tab-titles" role="tablist">
+            <button class="tab-links active-link" onclick="opentab(event, 'education')">Education</button>
+            <button class="tab-links" onclick="opentab(event, 'experience')">Experience</button>
+            <button class="tab-links" onclick="opentab(event, 'goal')">Goals</button>
+          </div>
+          <div class="tab-contents active-tab" id="education"><ul><li><span>S.S.C</span><br />Completed S.S.C from Sristy Central School and College, Ashulia with GPA 5.00.</li><li><span>H.S.C</span><br />Completed H.S.C from Sristy Central School and College, Ashulia with GPA 4.43.</li><li><span>BSc in CSE</span><br />Currently studying Computer Science and Engineering at Eastern University. Expected graduation: 2027.</li></ul></div>
+          <div class="tab-contents" id="experience"><ul><li><span>Professional / Internship</span><br />Worked as a campus ambassador and video editor at TechDataSquares Ltd.</li><li><span>Technical Projects</span><br />Designed portfolio, academic and commercial-style websites and database-based projects.</li><li><span>Problem-Solving</span><br />Participated in university programming contests and practiced logical problem solving.</li></ul></div>
+          <div class="tab-contents" id="goal"><ul><li><span>Personal Mission</span><br />To become a skilled software engineer who builds valuable technology with honesty, kindness and responsibility.</li><li><span>Growth Mindset</span><br />To become a senior developer known for technical ability and good character.</li></ul></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="coding">
+    <div class="containerc">
+      <p class="section-label">Skills</p>
+      <h1 class="sub-title">My Coding Skills</h1>
+      <p class="section-intro">A clean overview of the technologies I use for programming, web design and application development.</p>
+      <div class="skill-list">
+        <article class="skill-card reveal"><i class="fas fa-code"></i><h2>Programming</h2><div class="skill-items"><div class="skill-item"><img src="CPP.png" alt="C++" /><div><strong>C++</strong><span> Expert Level</span></div></div><div class="skill-item"><img src="JAVA.png" alt="Java" /><div><strong>Java</strong><span> Expert Level</span></div></div><div class="skill-item"><img src="PY.png" alt="Python" /><div><strong>Python</strong><span> Expert Level</span></div></div><div class="skill-item"><img src="SQL.png" alt="SQL" /><div><strong>SQL</strong><span> Expert Level</span></div></div></div><a class="learn-link" href="https://github.com/Farhad-Chowdhury-Shohagh?tab=repositories" target="_blank" rel="noopener noreferrer">Learn more <i class="fa-solid fa-arrow-right"></i></a></article>
+        <article class="skill-card reveal"><i class="fas fa-crop-alt"></i><h2>Web Design</h2><div class="skill-items"><div class="skill-item"><img src="html.png" alt="HTML" /><div><strong>HTML</strong><span> Expert Level</span></div></div><div class="skill-item"><img src="css.png" alt="CSS" /><div><strong>CSS</strong><span> Expert Level</span></div></div><div class="skill-item"><img src="js.png" alt="JavaScript" /><div><strong>JavaScript</strong><span> Expert Level</span></div></div><div class="skill-item"><img src="reactjs.png" alt="React" /><div><strong>React JS</strong><span> Proficient Level</span></div></div></div><a class="learn-link" href="https://github.com/Farhad-Chowdhury-Shohagh?tab=repositories" target="_blank" rel="noopener noreferrer">Learn more <i class="fa-solid fa-arrow-right"></i></a></article>
+        <article class="skill-card reveal"><i class="fab fa-app-store"></i><h2>App Design</h2><div class="skill-items"><div class="skill-item"><img src="kotlin.png" alt="Kotlin" /><div><strong>Kotlin</strong><span> Expert Level</span></div></div><div class="skill-item"><img src="JAVA.png" alt="Java" /><div><strong>Java</strong><span> Expert Level</span></div></div><div class="skill-item"><img src="swift.png" alt="Swift" /><div><strong>Swift</strong><span> Expert Level</span></div></div><div class="skill-item"><img src="csharp.png" alt="C#" /><div><strong>C#</strong><span> Proficient Level</span></div></div></div><a class="learn-link" href="https://github.com/Farhad-Chowdhury-Shohagh?tab=repositories" target="_blank" rel="noopener noreferrer">Learn more <i class="fa-solid fa-arrow-right"></i></a></article>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="containerco">
+      <div class="row contact-row">
+        <div class="contact-left reveal">
+          <p class="section-label">Contact</p><h1 class="sub-title">Let’s build something great</h1><p class="contact-text">Feel free to contact me for academic projects, web development work, collaboration or programming discussions.</p>
+          <p><i class="fas fa-paper-plane"></i> fcshohagh22@gmail.com</p><p><i class="fa-brands fa-whatsapp"></i> +880 1675464308</p><p><i class="fas fa-phone-square-alt"></i> +880 1772245077</p>
+          <div class="social-icons"><a href="https://www.facebook.com/fcshohagh2002" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook"></i></a><a href="https://twitter.com/FC_Shohagh" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter-square"></i></a><a href="https://www.instagram.com/fc_shohagh" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a><a href="https://bd.linkedin.com/in/farhad-ch" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a></div>
+          <a href="https://drive.google.com/file/d/1vFZ4KCvFk8qLs1B6CYvIyK-3lFfemKXG/view?usp=sharing" class="btn primary-btn" target="_blank" rel="noopener noreferrer">Download CV</a>
+        </div>
+        <div class="contact-right reveal"><form id="sheetdb-form" action="https://sheetdb.io/api/v1/iyas5xqeinil0" method="POST"><input type="text" name="data[name]" id="uname" placeholder="Your Name" required /><input type="email" name="data[email]" id="uemail" placeholder="Your Email" required /><textarea name="data[message]" id="umessage" placeholder="Your Message" required></textarea><button type="submit" class="btn primary-btn submit-btn">Submit Message</button></form></div>
+      </div>
+    </div>
+    <footer class="copyright"><p>Copyright © Farhad. Developed by Farhad Chowdhury</p></footer>
+  </section>
+  <script src="script.js"></script>
+</body>
+</html>
